@@ -1,0 +1,849 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4f4;
+}
+
+/* Dark-Light Mode */
+
+body {
+    transition: color 0.5s, background-color 0.5s;
+}
+
+body.light-mode {
+    color: #000; 
+    background-color: #fff; 
+}
+
+body.dark-mode {
+    color: #fff; 
+    background-color: #333; 
+}
+
+/* ---------- */
+
+
+.slide-container{
+    max-width: 450px;
+    width: 100%;
+    /* background-color: grey; */
+    padding: 40px;
+}
+
+.card{
+    position: relative;
+    height: 570px;
+    width: 350px;
+    box-shadow: 0 0 5px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    background-color: #f4f4f4e1;
+   
+}
+/* 1st card */
+.whatsapp-logo{
+    margin-top: 215px;
+    margin-left: 155px;
+}
+.logo{
+    height: 80px;
+    width: 80;
+}
+.text-1st-page{
+    display: flex;
+    flex-direction: column;
+    margin-left: 180px;
+    margin-top: 150px;
+}
+.meta{
+    display: flex;
+    flex-direction: row;
+    margin-left: -25px;
+}
+.txt1{
+    color: #555;
+    font-size: 14px;
+    font-weight: 100;
+    margin-left: -2px;
+}
+.logo2{
+    height: 22px;
+    width: 22px;
+}
+.txt2{
+    color: #0BCF2C;
+    margin-left: 5px;
+}
+/* -------- */
+
+/* 2nd card */
+.icon1-2nd{
+    height: 25px;
+    width: 25px;
+}
+    .icon1-2nd-card{
+        margin-top: 10px;
+        margin-left: 330px;
+    }
+    .text-2nd{
+        font-weight: 700;
+        font-size: 24px;
+        margin-left: 8px;
+        margin-bottom: 5px;
+    }
+    .text2-2nd{
+        font-weight: 600;
+        margin-top: -8px;
+        margin-left: 8px;
+        margin-bottom: 1px;
+    }
+.status{
+    background-color: white;
+    margin-top: 10px;
+    padding-top: 10px;
+   
+}
+.logo-2nd{
+    display: flex;
+    flex-direction: row;
+}
+.view-line{
+    display: flex;
+    flex-direction: row;
+}
+.back{
+    margin-left: 240px;
+}
+.view{
+    font-size: 12px;
+    margin-left: 8px;
+}
+.daag-2ndcard{
+    background-color: #555;
+    height: 1px;
+    width: 100%;
+}
+.icon2-2nd{
+    background-color: #f7f0f0e1;
+    padding: 8px;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    margin-top: 8px;
+    margin-right: 15px;
+}
+.icon3-2nd{
+    background-color: #f4f4f4;
+    padding: 8px;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    margin-top: 8px;
+    margin-right: 15px;
+}
+.footer-2nd {
+    display: flex;
+    justify-content: space-around; 
+    background-color: #e5e5e5; 
+    padding: 10px; 
+    margin-top: 224px;
+
+  }
+  .lorem1-2nd{
+    font-size: 12px;
+    color: #555;
+  }
+  .suff-2nd{
+    height: 18px;
+    width: 18px;
+    margin-left: -18px;
+    margin-top: 34px;
+  }
+.footer-2nd img {
+    width: 50px; 
+    height: 50px;  
+    padding: 10px; 
+    cursor: pointer; 
+  }
+  .footer2-2nd {
+    font-size: 10px;
+    display: flex;
+    justify-content: space-around; 
+    background-color: #e5e5e5; 
+    margin-top: -14px;
+    margin-left: 1px;
+    margin-right: 3px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+/* ----------- */
+
+/* 3rd Card */
+
+.icon-3rd{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.icon1-3rd{
+    height: 22px;
+    width: 22px;
+    margin-left: 294px;
+    margin-top: 12px;
+    margin-right: 16px;
+}
+.text{
+    margin-top: -30px;
+}
+.txt-3rd{
+    margin-left: 14px;
+    margin-top: 12px;
+}
+.search-box-3rd{
+    height: 30px;
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 4px;
+    margin-right: 25px;
+    margin-left: 12px;
+
+}
+
+.txt1-3rd{
+    margin-left: 8px;
+    font-weight: 600;
+
+}
+.link{
+    margin-left: 8px;
+    margin-right: 8px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    padding: 3px;
+    margin-top: 5px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+.link-logo{
+    margin-left: 15px;
+    height: 35px;
+    width: 35px;
+    background-color: #f5f1f1;
+    padding: 8px;
+    border-radius: 50%;
+}
+.link-txt1{
+    color: #2196F3;
+    margin-left: 18px;
+}
+.link-txt2{
+    color: #555;
+    font-size: 12px;
+    margin-left: 18px;
+}
+.person1-3rd{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+.call-log{
+    display: flex;
+    flex-direction: row;
+}
+.call-log-logo{
+    margin-top: 5px;
+    height: 16px;
+    width: 16px;
+}
+.lorem1-3rd{
+    margin-left: 5px;
+    font-size: 14px;
+    margin-top: 3px;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    margin-top: 18px;
+}
+
+.user-3rd{
+    margin-top: 5px;
+    height:45px;
+    width: 45px;
+}
+.name1-3rd{
+    color: black;
+    font-size: 16px;
+}
+.time1-3rd{
+    color: #555;
+    margin-left: 45px;
+    font-size: 14px;
+}
+.info-icon{
+    height: 24px;
+    width: 24px;
+    margin-left: 8px;
+    
+}
+.info1{
+    display: flex;
+    flex-direction: row;
+    margin-top: 18px;
+}
+.info-icon1{
+    height: 24px;
+    width: 24px;
+    margin-left: 10px;
+}
+.time2-3rd{
+    margin-left: 85px;
+    color: #555;
+    font-size: 14px;
+}
+.calls{
+    background-color: white;
+    margin: 8px;
+    margin-top: -1px;
+    border-radius: 8px;
+}
+.daag-3rd{
+    height: 1px;
+    width: 80%;
+    background-color: #555;
+    margin-left: 19%;
+    margin-top: -16px;
+}
+/* ---------- */
+
+/* Fourth card */
+.card4{
+    position: relative;
+    height: 570px;
+    width: 350px;
+    box-shadow: 0 0 5px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    background-color: white;
+}
+    .text-4th{
+        margin: 20px 5px 5px 8px;
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .pic-4th{
+        height: 200px;
+        width: 350px;
+    }
+.txt2-4th{
+    font-weight: 500;
+    text-align: center;
+}
+.txt3-4th{
+    font-size: 14px;
+    color: #555;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.link-icon{
+    display: flex;
+    flex-direction: row;
+}
+.txt4-4th{
+    color: #2196F3;
+    font-size: 13px;
+    margin-left: 25%;
+}
+.icon2-4th{
+    height: 11px;
+    width: 11px;
+    margin-top: 4px;
+   
+}
+.button{
+    height: 40px;
+    width: 80%;
+    border-radius: 10px;
+    background-color: #2196F3;
+    border: none;
+    color: white;
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-bottom: 63.5px;
+}
+/* -------------- */
+
+/* Sicth Card */
+.search-box-6th{
+    height: 30px;
+    width: 98%;
+    border-radius: 8px;
+    border: none;
+    margin-left: 8px;
+    margin-bottom: 20px;
+    margin-right: 8px;
+    background-color: lightgray;
+}
+.name1-6th{
+    font-size: 20px;
+    font-weight: 450;
+}
+.lorem1-6th{
+    color: #555;
+    font-size: 15px;
+}
+.first-6th{
+    margin-top: -10px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 4px;
+}
+.qr-icon{
+    height: 30px;
+    width: 30px;
+    margin-right: 12px;
+    margin-top: 15px;
+    padding: 6px;
+    border-radius: 50%;
+    background-color: #e5e5e5;
+
+}
+.daag-6th{
+    background-color: #555;
+    height: 1px;
+    width: 344px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.avatar{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px;
+}
+.avatar-icon{
+    margin-top: 5px;
+    height: 28px;
+    width: 28px;
+}
+.avatar-txt{
+    margin-top: 5px;
+    margin-left: 12px;
+}
+.avatar-icon2{
+    margin-top: 6px;
+    height: 25px;
+    width: 25px;
+    margin-left: 64%;
+}
+.portion2{
+    margin-top: 30px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 6px;
+}
+.portion3{
+    margin-top: 30px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 6px;
+}
+.list{
+    display: flex;
+    flex-direction: row;
+}
+.star{
+    display: flex;
+    flex-direction: row;
+}
+.device{
+    display: flex;
+    flex-direction: row;
+}
+.broad1{
+    display: flex;
+    flex-direction: row;
+}
+.broad-txt{
+    color: black;
+    margin-left: 15px;
+    font-weight: 400;
+    /* margin-right: 150px; */
+}
+.broad-icon2{
+    margin-top: 1px;
+    height: 25px;
+    width: 25px;
+    margin-left: 139px;
+
+}
+.star-icon2{
+    height: 25px;
+    width: 25px;
+    margin-left: 115px;
+}
+.device-txt{
+    margin-left: 15px;
+}
+.device-icon2{
+    height: 25px;
+    width: 25px;
+    margin-left: 140px;
+}
+.list2{
+    display: flex;
+    background-color: #0BCF2C;
+    border-radius: 4px;
+    height: 30px;
+    width: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.daag-6th-star{
+    height: 1px;
+    width: 292px;
+    background-color: #555;
+    margin-top: 3px;
+    margin-bottom: 5px;
+    margin-left: 45px;
+    
+}
+
+.star-icon{
+    height: 22px;
+    width: 22px;
+}
+.star2{
+    display: flex;
+    background-color: #e0d20f;
+    border-radius: 4px;
+    height: 30px;
+    width: 30px;
+    padding: 6px;
+    align-items: center;
+    justify-content: center;
+}
+.key-icon2{
+    height: 25px;
+    width: 25px;
+    margin-left: 190px;
+}
+.lock-icon2{
+    height: 25px;
+    width: 25px;
+    margin-left: 200px;
+}
+.key2{
+    display: flex;
+    background-color: #318ecc;
+    border-radius: 4px;
+    height: 30px;
+    width: 30px;
+    padding: 6px;
+    align-items: center;
+    justify-content: center; 
+    margin-left: 5px;
+}
+.lock2{
+    display: flex;
+    background-color: #66b5e9;
+    border-radius: 4px;
+    height: 30px;
+    width: 30px;
+    padding: 6px;
+    align-items: center;
+    justify-content: center; 
+    margin-left: 5px;
+}
+.device-icon{
+    height: 22px;
+    width: 22px;
+}
+.device2{
+    display: flex;
+    background-color: #1fc29e;
+    border-radius: 4px;
+    height: 30px;
+    width: 30px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.chat-icon{
+    height: 30px;
+    width: 30px;
+    border-radius: 4px;
+    margin-left: 5px;
+}
+.chat-icon2{
+    height: 25px;
+    width: 25px;
+    margin-left: 210px;
+}
+
+.daag-6th-lock{
+    height: 1px;
+    width: 293px;
+    background-color: #555;
+    margin-top: 3px;
+    margin-bottom: 5px;
+    margin-left: 50px;
+}
+
+.footer-6th{
+    display: flex;
+    justify-content: space-around; 
+    background-color: #e5e5e5; 
+    padding: 8px; 
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+   
+  }
+  .footer-6th img {
+    width: 50px; 
+    height: 50px;  
+    padding: 10px; 
+    cursor: pointer; 
+  }
+
+  .footer2-6th{
+    font-size: 10px;
+    display: flex;
+    justify-content: space-around; 
+    background-color: #e5e5e5; 
+    margin-top: -20px;
+    margin-left: 5px;
+    margin-right: 3px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+
+/* ------------- */
+.icon1{
+    height: 25px;
+    width: 25px;
+    margin: 5px;
+}
+ .icon2{
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    top: 0;
+    right: 30px;
+    margin: 5px;
+}
+ .icon3{
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    top: 0;
+    right: -18px;
+    margin: 5px;
+}
+.text{
+    margin: 20px 5px 5px 8px;
+    font-family: poppins;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.inner-box{
+    display: flex;
+    flex-direction: row;
+}
+.search-box{
+    height: 30px;
+    width: 290px;
+    border-radius: 8px;
+    margin-top: 4px;
+    margin-right: 20px;
+    margin-left: 5px;
+    margin-bottom: 30px;
+    border: none;
+    
+}
+.icon4{
+    height: 20px;
+    width: 20px;
+    margin-top: 6px;
+}
+.chats{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+    
+}
+
+
+/* Chat 1 */
+ .icon5{
+    height: 50px;
+    width:  50px
+    
+}
+.first{
+    display: flex;
+    margin-bottom: 20px;
+
+}
+ .person1{
+    flex: 1;
+    margin-left: 20px;
+}
+.name1{
+    font-weight: bold;
+}
+.lorem1 {
+    color: #555;
+}
+.time1{
+    color: #555;
+    margin-right: 8px;
+}
+.daag{
+    height: 1px;
+    width: 80%;
+    background-color: #555;
+    margin-bottom: 8px;
+    margin-left: 70px;
+}
+/* ---------------- */
+
+/* chat-2 */
+ .icon6{
+    height: 50px;
+    width: 50px
+}
+.second{
+    display: flex;
+    margin-bottom: 20px;
+}
+.person2{
+    flex: 1;
+    margin-left: 20px;
+}
+.name2{
+    font-weight: bold;
+}
+.lorem2 {
+    color: #555;
+}
+.time2{
+    color: #555;
+    margin-right: 8px;
+}
+/* ------------- */
+ .icon7{
+    border-radius: 2px;
+    border-color: #2196F3;
+    height: 50px;
+    width: 50px
+}
+.third{
+    display: flex;
+    margin-bottom: 25px;
+}
+.person3{
+    flex: 1;
+    margin-left: 20px;
+}
+.name3{
+    font-weight: bold;
+}
+.lorem3 {
+    color: #555;
+}
+.time3{
+    color: #555;
+    margin-right: 8px;
+}
+
+
+.fourth{
+    display: flex;
+    margin-bottom: 25px;
+
+}
+.kala{
+    background-color: black;
+}
+.icon8{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    border: 3px solid #2196F3;
+    
+}
+.person4{
+    flex: 1;
+    margin-left: 20px;
+}
+.name4{
+    font-weight: bold;
+}
+.lorem4 {
+    color: #555;
+}
+.time4{
+    color: #555;
+    margin-right: 8px;
+}
+
+
+
+/* fotter */
+.footer {
+    display: flex;
+    justify-content: space-around; 
+    background-color: #e5e5e5; 
+    padding: 10px; 
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+   
+  }
+
+  .footer img {
+    width: 50px; 
+    height: 50px;  
+    padding: 10px; 
+    cursor: pointer; 
+  }
+  .footer2 {
+    font-size: 10px;
+    display: flex;
+    justify-content: space-around; 
+    background-color: #e5e5e5; 
+    margin-top: -20px;
+    margin-left: 5px;
+    margin-right: 3px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
